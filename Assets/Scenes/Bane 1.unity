@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -514,7 +514,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281368304}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c87cfe4542e9bca40a4c008666b16095, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -698,7 +698,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319843677}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c87cfe4542e9bca40a4c008666b16095, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1879,7 +1879,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885175229}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c87cfe4542e9bca40a4c008666b16095, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2877,7 +2877,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 3495195579961902114}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1611150329}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 177d6617f82aed047950166db77d1d52, type: 3}
@@ -3299,6 +3299,24 @@ MonoBehaviour:
   respawnPoint: {fileID: 0}
   aS: {fileID: 0}
   soundActive: 0
+--- !u!1 &1611150329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3495195581200158513, guid: 5c2796a559d5ced4490fcf12c10bfc7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3495195579961902114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1611150335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611150329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4716023b8f74a42bb1944a53e1242b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1700934386
 GameObject:
   m_ObjectHideFlags: 0
@@ -4049,7 +4067,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987971646}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c87cfe4542e9bca40a4c008666b16095, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -4344,6 +4362,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 3495195581200158516, guid: 5c2796a559d5ced4490fcf12c10bfc7f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 41963dc3c6d23054192dd1ca75ef38a4, type: 2}
     - target: {fileID: 3495195581200158518, guid: 5c2796a559d5ced4490fcf12c10bfc7f,
         type: 3}
       propertyPath: forwardForce
