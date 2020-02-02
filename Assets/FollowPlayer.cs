@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class followplayer1 : MonoBehaviour
+public class followplayer : MonoBehaviour
 {
     public Transform player;
     public Vector3 offset;
@@ -12,3 +12,4 @@ public class followplayer1 : MonoBehaviour
         transform.position = player.position + offset;
     }
 }
+
