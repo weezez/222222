@@ -4,7 +4,7 @@ public class GravityInverter : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp("d"))
         {
             MakeTheObjectsGoUp();
         }
