@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - Teleport
+  - Teleport2
   layers:
   - Default
   - TransparentFX
