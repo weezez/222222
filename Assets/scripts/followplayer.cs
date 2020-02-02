@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
-public class FollowPlayer1 : MonoBehaviour
+public class followplayer : MonoBehaviour
 {
-
     public Transform player;
     public Vector3 offset;
+ 
 
     // Update is called once per frame
     void Update()
