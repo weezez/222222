@@ -5,12 +5,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody rb;
 
-    public float forwardForce = 1000f;
-    public float sidewaysForce = 500f;
+    public float forwardForce = 0f;
+    public float sidewaysForce = 0f;
     // Use this for initialization
     void Start()
     {
-        rb.AddForce(0, 200, 500);
+        rb.AddForce(0, 0, 0);
     }
 
     // Update is called once per frame
